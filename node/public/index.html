@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platano</title>
+    <link rel="stylesheet" href="platano.css">
+</head>
+<body>
+    <!-- Tag para tener la camara en pantalla, aqui estara pero se copiara al canvas para poder trabajarlo-->
+    <video id="video" playsinline autoplay style="display: none;"></video>
+
+    <!-- Canvas para procesar -->
+    <canvas id="canvas" width="475" height="475"></canvas>
+    <!-- carrito -->
+     <div id="divCarrito">
+        <img src="carrito-chico.png" id="carrito" alt="carrito-chico">
+     </div>
+
+    <!-- Grados -->
+     <div style="display: inline-block;" id="info"></div>
+    <script src="./js/Platano.js"></script>
+    <script src="./js/webcam.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+        crossorigin="anonymous"></script>
+
+    <script src="../../"></script>
+</body>
+</html>
